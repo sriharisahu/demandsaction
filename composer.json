@@ -1,0 +1,15 @@
+{
+    "name": "sriharisahu/demandsaction",
+    "license": "GPLv3",
+    "description": "DeamndsAction WP Site",
+    "authors": [
+        {
+            "name": "Srihari Sankar Sahu",
+            "email": "sriharisahu@shreesoftsolutions.com"
+        }
+    ],
+	"require": {
+        "johnpbloch/wordpress": "3.9.*@dev",
+		"wp-cli/wp-cli": "dev-release-0.15.1"
+    }
+}
