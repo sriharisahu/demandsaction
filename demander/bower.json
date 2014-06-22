@@ -1,0 +1,38 @@
+{
+  "name": "demander",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sriharisahu/demandsaction",
+  "authors": [
+    "Srihari Sankar Sahu <sriharisahu@shreesoftsolutions.com>"
+  ],
+  "description": "Javascripte for demander wp theme",
+  "main": "main.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "wordpress",
+    "scripts",
+    "demander"
+  ],
+  "license": "GPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "scripts/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "respond": "fubhy/respond",
+    "selectivizr": "fubhy/selectivizr",
+    "html5shiv": "fubhy/html5shiv",
+    "matchmedia": "fubhy/matchmedia",
+    "pie": "fubhy/pie",
+    "bootstrap": "twbs/bootstrap",
+	"masonary": "desandro/masonry",
+	"modernizer": "Modernizr/Modernizr"
+  }
+}
