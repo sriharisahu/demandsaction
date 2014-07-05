@@ -22,3 +22,14 @@ javascripts_dir = "javascripts"
 # preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+
+output_style = :compressed
+environment = :development
+
+require 'fileutils'
+on_stylesheet_saved do |file|
+  if File.exists?(file) && File.basename(file) == "style.css"
+    puts "Moving: #{file}"
+    FileUtils.mv(file, File.dirname(file) + "/../" + File.basename(file))
+  end
+end

@@ -31,3 +31,7 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 require_once(ABSPATH . '../vendor/autoload.php');
 EOF
+
+ln -s ../../../demander wordpress/wp-content/themes/demander
+rm -r wordpress/wp-content/plugins
+ln -s ../../plugins/ wordpress/wp-content/plugins

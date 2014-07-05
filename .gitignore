@@ -3,3 +3,6 @@ vendor
 wordpress
 nbproject
 demander/scripts
+demander/stylesheets
+demander/.sass-cache
+demander/style.css
